@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".PhoneNumberActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:src="@drawable/ic_vector__45_"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/SignupFreeTextView"
+        android:layout_width="match_parent"
+        android:text="Enter phone number"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#696969"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="India"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="2dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#696969"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="+91"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter Phone number"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/code_by_sms"
+        android:textColor="@color/white"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btnNextotp"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_image"
+        android:backgroundTint="#696969"
+        android:text="Next"
+        android:textAllCaps="false" />
+</LinearLayout>

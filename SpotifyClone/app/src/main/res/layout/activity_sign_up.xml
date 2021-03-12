@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:src="@drawable/ic_vector__45_"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/SignupFreeTextView"
+        android:layout_width="match_parent"
+        android:text="Sign up free"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/FacebookButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Continue with facebook"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:backgroundTint="#3B5998"
+        android:padding="12dp"
+        android:drawableStart="@drawable/ic_vector__43_"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_image"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/EmailButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="12dp"
+        android:text="Continue with email"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_vector__48_"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_image"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/PhoneBtoon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Continue with phone number"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:drawableStart="@drawable/ic_group__5_"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_image"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/googleButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Continue with google"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:drawableStart="@drawable/ic_vector__44_"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_image"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

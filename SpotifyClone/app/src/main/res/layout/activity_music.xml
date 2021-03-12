@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayMusicActivity">
+    <ImageView
+        android:id="@+id/imageShan"
+        android:layout_width="match_parent"
+        android:src="@drawable/ic_shaan"
+        android:scaleType="center"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/tvShanSong"
+        android:layout_width="match_parent"
+        android:text="Shaan Songs"
+        android:textColor="@color/white"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="200dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnPlaysong"
+        android:layout_below="@+id/tvShanSong"
+        android:layout_width="150dp"
+        android:background="@drawable/ic_x2c0v"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_height="100dp"/>
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="wrap_content"
+        android:text="pause"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnPlaysong"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

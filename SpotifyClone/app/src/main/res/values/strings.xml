@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SpotiftDummy</string>
+    <string name="Millions">Millions of songs.</string>
+    <string name="free_to_spotify">Free on Spotify.</string>
+    <string name="code_by_sms">we will send you a code by sms to confirm your phone number.</string>
+    <string name="sms_sending">We sent an SMS with a 6-digit code to</string>
+    <string name="pnone_number">+917091434563.</string>
+    <string name="This_appears">This appears on your Spotify profile</string>
+    <string name="By_creating_account">By creating an account,you agree to Spotify Terms of</string>
+    <string name="service">Service.</string>
+    <string name="To_learn_more_about">To learn about how Spotify collects,uses,shares and protects your personal, data please
+        read Spotify Privacy</string>
+    <string name="policy">policy.</string>
+    <string name="we_may">We may accasionally send service-based messages.</string>
+    <string name="protect_by">PROTECT BY RECAPTCHA</string>
+    <string name="title_activity_bottom_nevigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
