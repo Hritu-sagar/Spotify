@@ -23,8 +23,7 @@ The project statement given to us was to create a dynamic clone of Spotify, an a
     // This library is used for gifs
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
     
-    ## Team Members
-
+## Team Members
 1) Varsha Kumari
 2) Ritu Sagar
 3) Kalpesh Dhupia
