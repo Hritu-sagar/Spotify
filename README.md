@@ -1,6 +1,5 @@
 # Spotify - Listening is everthing
 
-<img src="https://www.pngitem.com/middle/mwTiwb_spotify-logo-small-spotify-logo-transparent-hd-png/" width="320">
 
 ## Intro
 
