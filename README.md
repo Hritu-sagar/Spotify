@@ -1,5 +1,7 @@
 # Spotify - Listening is everthing
 
+![Logos](https://user-images.githubusercontent.com/75352548/111015018-b3521480-83cc-11eb-9a07-7ae63d5b426a.png)
+
 
 ## Intro
 
