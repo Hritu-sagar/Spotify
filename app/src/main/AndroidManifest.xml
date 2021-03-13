@@ -11,9 +11,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SpotifyRitu">
-        <activity
-            android:name=".HomePage"
-            android:label="@string/title_activity_home_page"></activity>
         <activity android:name=".WaitingActivity" />
         <activity android:name=".ChooseThreeOrMoreActivity">
             <intent-filter>

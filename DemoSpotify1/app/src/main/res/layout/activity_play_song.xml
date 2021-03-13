@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/thousandyear"
+    android:orientation="vertical"
+    tools:context=".PlaySong">
+
+    <Button
+        android:id="@+id/BtnStartService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_700"
+        android:text="Start Service" />
+
+    <Button
+        android:id="@+id/BtnPlayMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_700"
+        android:text="Play Song" />
+
+    <Button
+        android:id="@+id/BtnPauseMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_700"
+        android:text="Pause Song" />
+
+    <Button
+        android:id="@+id/BtnStopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/teal_700"
+        android:text="Stop service" />
+
+
+</LinearLayout>
+
+
+

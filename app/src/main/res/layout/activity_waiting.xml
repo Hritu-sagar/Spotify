@@ -19,6 +19,4 @@
         android:textStyle="bold"
         android:text="Finding music for you..."/>
 
-
-
 </LinearLayout>
